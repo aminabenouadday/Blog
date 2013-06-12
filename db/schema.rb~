@@ -38,12 +38,12 @@ ActiveRecord::Schema.define(:version => 20130610162153) do
   end
 
   create_table "participants", :force => true do |t|
-    t.string   "passcode",           :null => false
+    t.string   "passcode",                           :null => false
     t.integer  "sign_in_count",      :default => 0
     t.datetime "current_sign_in_at"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
     t.string   "illustration"
     t.string   "table_number"
     t.integer  "session_id"
